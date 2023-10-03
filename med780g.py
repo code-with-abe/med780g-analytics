@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain.llms import OpenAI
 st.set_page_config(page_title="Smart Diabetes")
-st.title('Abe's Med780g Analytics')
+st.title('Med780g Analytics')
 
 openai_api_key = st.sidebar.text_input('OpenAI API Key')
 
